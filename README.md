@@ -5,7 +5,7 @@ from any platform that Vagrant supports (Windows, Mac OSX, Linux).
 
 The ARM toolchain that will be setup includes the following tools:
 
-*   [GCC ARM Embedded](https://launchpad.net/gcc-arm-embedded) (version 4.9-2015-q2-update) - Full GCC toolchain
+*   [GCC ARM Embedded](https://launchpad.net/gcc-arm-embedded) (version 4.8 2014 q1) - Full GCC toolchain
     for compiling code to run on ARM processors.
 *   [OpenOCD](http://openocd.org/) (version 0.9.0) - Opensource on-chip-debugging tool.
 *   [stlink command line tools](https://github.com/texane/stlink) (version 1.1.0) - Tools to program and debug 
