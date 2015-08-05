@@ -20,7 +20,11 @@ Make sure you have the latest version of [Vagrant](https://www.vagrantup.com/dow
 [VirtualBox 5.x](https://www.virtualbox.org/wiki/Downloads) installed.
 
 In addition you will need the VirtualBox extension pack to provide USB device passthrough support.  [Download the appropriate extension pack](https://www.virtualbox.org/wiki/Downloads)
-for your version of VirtualBox.  On Windows double click the downloaded .vbox-extpack file to install.  On Linux or Mac OSX install it using the VBoxManage command by navigating to the location of the
+for your version of VirtualBox.  
+
+On Windows double click the downloaded .vbox-extpack file to install.  You will also want to install the [STLink USB driver](http://www.st.com/web/en/catalog/tools/PF260219) if you are using the STLink programmer. 
+
+On Linux or Mac OSX install it using the VBoxManage command by navigating to the location of the
 downloaded file and running:
 
     VBoxManage extpack install <ext pack filename>
