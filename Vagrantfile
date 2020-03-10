@@ -87,8 +87,8 @@ Vagrant.configure(2) do |config|
      make
      sudo make install
      cd /home/vagrant
-     wget https://github.com/texane/stlink/archive/1.1.0.tar.gz
-     mv 1.1.0.tar.gz stlink-1.1.0.tar.gz
+     wget https://github.com/texane/stlink/archive/v1.1.0.tar.gz
+     mv v1.1.0.tar.gz stlink-1.1.0.tar.gz
      tar xvfz stlink-1.1.0.tar.gz
      cd stlink-1.1.0
      ./autogen.sh
